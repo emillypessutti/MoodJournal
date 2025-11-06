@@ -28,7 +28,7 @@ void main() {
       expect(entity.currentValue, 2);
       expect(entity.date, DateTime(2023, 11, 13));
       expect(entity.isCompleted, false);
-      expect(entity.progressPercentage, 66); // 2/3 = 66%
+      expect(entity.progressPercentage, 67); // 2/3 = 66.66% arredondado para 67
       expect(entity.remaining, 1);
     });
 
